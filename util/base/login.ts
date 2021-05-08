@@ -1,7 +1,7 @@
-import * as Discord from "discord.js";
+import { Client } from "discord.js";
 import token from "../../data/token";
 
-export const client = new Discord.Client();
+export const client = new Client();
 
 client.login(token);
 
